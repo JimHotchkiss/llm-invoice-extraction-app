@@ -8,7 +8,7 @@ A full-stack application that uses GPT-4o to automatically extract structured da
 
 ### 1. Clone Repository
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/JimHotchkiss/llm-invoice-extraction-app.git
 cd case_study
 ```
 
@@ -26,7 +26,7 @@ echo "OPENAI_API_KEY=your_key_here" > .env
 python database/init_db.py
 
 # Start server
-python app.py
+python server.py
 ```
 Backend runs at `http://127.0.0.1:8080`
 
@@ -40,7 +40,7 @@ Frontend runs at `http://localhost:3000`
 
 ## Usage
 
-1. Upload an invoice PDF
+1. Upload an invoice PDF (there are sample invoice in the server/invoices directory)
 2. AI extracts data automatically
 3. View, edit, or delete invoices in the table
 4. Click "View line items" to see invoice details
