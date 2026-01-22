@@ -40,9 +40,8 @@ Frontend runs at `http://localhost:3000`
 
 ## Usage
 
-1. Upload an invoice PDF (there are sample invoice in the server/invoices directory)
+1. Upload an invoice PDF (Sample invoices included in `/server/invoices/`)
 2. AI extracts data automatically
 3. View, edit, or delete invoices in the table
 4. Click "View line items" to see invoice details
 
-Sample invoices included in `/server/invoices/`
