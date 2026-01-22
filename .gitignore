@@ -1,0 +1,31 @@
+# Python
+server/.venv/
+server/__pycache__/
+server/*.pyc
+server/.env
+server/*.db
+server/*.sqlite
+server/*.sqlite3
+
+# Node.js
+client/node_modules/
+client/.next/
+client/out/
+client/build/
+
+# Environment variables
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
